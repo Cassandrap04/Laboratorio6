@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/stylepagina3.css">
+    <link rel="stylesheet" href="stylepagina3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
 </head>
 </head>
@@ -16,6 +17,39 @@
     </ul>
 </nav></header>
 <body>
-    <h1>Página 3</h1>
+    
+    <div class="container">
+        <h1 class="display-1" style="text-align: center;">Página 3</h1>
+<ul>
+    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit perferendis consequuntur ea laudantium laborum atque repellendus, fugit nihil illum cupiditate facilis minima, voluptatem quos eius illo ab quod. Iusto, facilis.</p></li>
+    <li><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et nostrum illum culpa voluptate error ipsum doloribus consequatur, ea maxime, eligendi adipisci itaque debitis, tenetur ipsam at nihil aliquid omnis.</p></li>
+    <li><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum tenetur et quam nam, laboriosam at possimus, assumenda quia accusantium reiciendis, quasi odio nostrum. Nobis id minus voluptas et optio laboriosam!</p></li>
+</ul>
+    
+
+        <!-- Tres imágenes -->
+        <img src="img/www.png" class="rounded float-start" alt="...">
+        <img src="img/pw.png" class="rounded float-end" alt="...">
+
+        <img src="img/img1.png" class="rounded mx-auto d-block" alt="...">
+
+        
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Escribe tu correo electrónico">
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Escriba que desea mejorar</label>
+                <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

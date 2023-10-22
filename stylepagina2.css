@@ -1,0 +1,9 @@
+.menupagina2 {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.menupagina2 li {
+    margin: 0 10px; 
+}
